@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:alpha="1"
+    android:background="@android:color/transparent"
+    app:cardCornerRadius="17dp">
+
+    <LinearLayout
+        android:id="@+id/custom_title_thisathach"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:background="#E0E0E0"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="17dp"
+            android:text="Thông báo"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="17dp"
+            android:gravity="center"
+            android:text="Bạn muốn kết thúc bài thi?"
+            android:textColor="#000" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bt_huyBo"
+                android:layout_width="83dp"
+                android:layout_height="41dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:text="Hủy bỏ"
+                android:textColor="#275ee9" />
+
+            <View
+                android:layout_width="0.1dp"
+                android:layout_height="41dp"
+                android:layout_centerInParent="true"
+                android:background="#000" />
+
+            <Button
+                android:id="@+id/bt_dongY"
+                android:layout_width="83dp"
+                android:layout_height="41dp"
+                android:layout_alignParentRight="true"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:text="Đồng ý"
+                android:textColor="#275ee9" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

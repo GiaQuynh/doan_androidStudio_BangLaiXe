@@ -1,0 +1,180 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:background="#000"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="Câu: "
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_stt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_cauHoi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="13dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:layout_marginTop="9dp"
+                android:text="abc xyz"
+                android:textColor="#000"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/anhCauHoi"
+                android:layout_width="250dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="13dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:background="#fff"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:background="#000"
+            />
+
+        <CheckBox
+            android:id="@+id/A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:textSize="13sp"
+            android:textColor="#000"
+            android:text="A. 1"
+            android:buttonTint="#03A9F4"
+            />
+        <View
+            android:id="@+id/view_A"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#000"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            />
+        <CheckBox
+            android:id="@+id/B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:textSize="13sp"
+            android:textColor="#000"
+            android:buttonTint="#03A9F4"
+            android:text="B. 2" />
+        <View
+            android:id="@+id/view_B"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#000"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            />
+        <View
+            android:id="@+id/view_B_"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#000"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp"
+            />
+
+        <CheckBox
+            android:id="@+id/C"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:textSize="13sp"
+            android:textColor="#000"
+            android:text="C. 3"
+            android:buttonTint="#03A9F4"
+            />
+        <View
+            android:id="@+id/view_C"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#000"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            />
+        <View
+            android:id="@+id/view_C_"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#000"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp"
+            />
+
+        <CheckBox
+            android:id="@+id/D"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:textSize="13sp"
+            android:textColor="#000"
+            android:text="D. 4"
+            android:buttonTint="#03A9F4"
+            />
+        <View
+            android:id="@+id/view_D"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#000"
+            android:layout_marginBottom="10dp"
+            />
+    </LinearLayout>
+
+</ScrollView>
